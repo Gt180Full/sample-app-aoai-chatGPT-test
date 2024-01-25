@@ -48,7 +48,6 @@ const Layout = () => {
                     <Stack horizontal verticalAlign="center">
                         <img
                             src="https://s3.amazonaws.com/imagescloud/images/interface/logo-sepaq-2x.png"
-                            //src={Contoso}
                             className={styles.headerIcon}
                             aria-hidden="true"
                         />

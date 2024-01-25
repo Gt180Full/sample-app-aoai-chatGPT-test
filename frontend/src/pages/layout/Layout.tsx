@@ -47,12 +47,13 @@ const Layout = () => {
                 <Stack horizontal verticalAlign="center" horizontalAlign="space-between">
                     <Stack horizontal verticalAlign="center">
                         <img
-                            src={Contoso}
+                            src="https://s3.amazonaws.com/imagescloud/images/interface/logo-sepaq-2x.png"
+                            //src={Contoso}
                             className={styles.headerIcon}
                             aria-hidden="true"
                         />
                         <Link to="/" className={styles.headerTitleContainer}>
-                            <h1 className={styles.headerTitle}>Contoso</h1>
+                            <h1 className={styles.headerTitle}>Sépaq</h1>
                         </Link>
                     </Stack>
                     <Stack horizontal tokens={{ childrenGap: 4 }}>

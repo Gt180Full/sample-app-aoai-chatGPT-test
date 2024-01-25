@@ -713,7 +713,7 @@ const Chat = () => {
                             </Stack>
                             <QuestionInput
                                 clearOnSend
-                                placeholder="Type a new question..."
+                                placeholder="Tapez une nouvelle question..."
                                 disabled={isLoading}
                                 onSend={(question, id) => {
                                     appStateContext?.state.isCosmosDBAvailable?.cosmosDB ? makeApiRequestWithCosmosDB(question, id) : makeApiRequestWithoutCosmosDB(question, id)

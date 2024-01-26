@@ -10,7 +10,7 @@ import { isEmpty } from "lodash-es";
 import DOMPurify from 'dompurify';
 
 import styles from "./Chat.module.css";
-import Contoso from "../../assets/Contoso.svg";
+import Contoso2 from "../../assets/Contoso-Central.svg";
 import { XSSAllowTags } from "../../constants/xssAllowTags";
 
 import {
@@ -588,7 +588,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src="https://s3.amazonaws.com/imagescloud/images/interface/logo-sepaq-2x.png"
+                                    src={Contoso2}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
